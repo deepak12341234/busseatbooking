@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd"> 
+<tiles-definitions>  
+   <!--  <definition name="base.definition"   template="/WEB-INF/views/layout.jsp">  
+          <put-attribute name="title" value="" />  
+          <put-attribute name="header" value="/WEB-INF/views/header.jsp" />  
+          <put-attribute name="menu" value="" /> 
+           
+          <put-attribute name="body" value="" />  
+         <put-attribute name="footer" value="/WEB-INF/views/footer.jsp" />
+             
+    </definition>
+        <definition name="contact" extends="base.definition">  
+                         <put-attribute name="title" value="Contact Manager" />  
+                         <put-attribute name="menu" value="/WEB-INF/views/menu.jsp" />      
+                         <put-attribute name="body" >
+                             <definition  template="/WEB-INF/views/contact.jsp">  
+           						 <put-attribute name="newemploye" value="/WEB-INF/views/newemploye.jsp" />
+         				   	     <put-attribute name="deleteemploye" value="/WEB-INF/views/deleteemploye.jsp" /> 
+        					     <put-attribute name="updateemploye" value="/WEB-INF/views/updateemploye.jsp" />  
+             				     <put-attribute name="searchemploye" value="/WEB-INF/views/searchemploye.jsp" />     
+       					     </definition>
+       					 </put-attribute>  
+       </definition>
+       
+         <definition name="employepage" extends="base.definition">  
+                 <put-attribute name="title" value="Contact Manager" /> 
+                 <put-attribute name="menu" value="/WEB-INF/views/employeemenu.jsp" />      
+                 <put-attribute name="body" >
+                     <definition  template="/WEB-INF/views/employepage.jsp">  
+        				    <put-attribute name="leaveappliaction" value="/WEB-INF/views/leaveappliaction.jsp" />
+           				    <put-attribute name="feedback" value="/WEB-INF/views/feedback.jsp" /> 
+       				        <put-attribute name="complian" value="/WEB-INF/views/complian.jsp" />  
+          				    <put-attribute name="myperformence" value="/WEB-INF/views/myperformence.jsp" />     
+   					 </definition>     
+       			 </put-attribute>     
+          </definition>   -->
+          
+    
+  
+    
+      <definition name="base.definition1"  template="/WEB-INF/views/layout1.jsp">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="header" value="/WEB-INF/views/header.jsp" />  
+        <put-attribute name="body" value="" />  
+        <put-attribute name="footer" value="/WEB-INF/views/footer.jsp" />  
+    </definition> 
+    
+      <definition name="base.definition2"  template="/WEB-INF/views/layout1.jsp">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="header" value="/WEB-INF/views/afterin.jsp" />  
+        <put-attribute name="body" value="" />  
+        <put-attribute name="footer" value="/WEB-INF/views/footer.jsp" />  
+    </definition> 
+    <definition name="hello" extends="base.definition1">  
+        <put-attribute name="title" value="Hello Spring MVC" />  
+        <put-attribute name="body" value="/WEB-INF/views/hello.jsp" />  
+    </definition>  
+    <definition name="userpage" extends="base.definition2">  
+        <put-attribute name="title" value="Hello Spring MVC" />  
+        <put-attribute name="body" value="/WEB-INF/views/userpage.jsp" />  
+    </definition>  
+    <definition name="adminpage" extends="base.definition1">  
+        <put-attribute name="title" value="Hello Spring MVC" />  
+        <put-attribute name="body" value="/WEB-INF/views/adminpage.jsp" />  
+    </definition>  
+     <definition name="result" extends="base.definition2">  
+        <put-attribute name="title" value="Hello Spring MVC" />  
+        <put-attribute name="body" value="/WEB-INF/views/result.jsp" />  
+    </definition> 
+     <definition name="bookbus" extends="base.definition2">  
+        <put-attribute name="title" value="Hello Spring MVC" />  
+        <put-attribute name="body" value="/WEB-INF/views/bookbus.jsp" />  
+    </definition>
+     <definition name="finalprint" extends="base.definition2">  
+        <put-attribute name="title" value="Hello Spring MVC" />  
+        <put-attribute name="body" value="/WEB-INF/views/finalprint.jsp" />  
+    </definition>
+    <!-- 
+    
+        <definition name="allemp" extends="base.definition1">  
+                         <put-attribute name="title" value="Contact Manager" />  
+                            
+                        <put-attribute name="body" value="/WEB-INF/views/allemp.jsp">      
+       					 </put-attribute>  
+       </definition>
+    
+    <definition name="empbyid" extends="base.definition1">  
+                         <put-attribute name="title" value="Contact Manager" />  
+                            
+                        <put-attribute name="body" value="/WEB-INF/views/empbyid.jsp">      
+       					 </put-attribute>  
+       </definition> -->
+    
+</tiles-definitions> 
